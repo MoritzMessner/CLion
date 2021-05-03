@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/Aufgabe3/Aufgabe3.cpp
+iostream
+-
+cassert
+-
+Aufgabe3.h
+E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/Aufgabe3/Aufgabe3.h
+Date.h
+E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/Aufgabe3/Date.h
+Person.h
+E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/Aufgabe3/Person.h
+
+E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/Aufgabe3/Aufgabe3.h
+
+E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/Aufgabe3/Date.cpp
+iostream
+-
+Date.h
+E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/Aufgabe3/Date.h
+
+E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/Aufgabe3/Date.h
+
+E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/Aufgabe3/Person.cpp
+Person.h
+E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/Aufgabe3/Person.h
+iostream
+-
+
+E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/Aufgabe3/Person.h
+Date.h
+E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/Aufgabe3/Date.h
+iostream
+-
+
