@@ -232,6 +232,19 @@ aufgabe6Exe/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe6Exe.dir\build.make CMakeFiles/aufgabe6Exe.dir/build
 .PHONY : aufgabe6Exe/fast
 
+#=============================================================================
+# Target rules for targets named aufgabe7Exe
+
+# Build rule for target.
+aufgabe7Exe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 aufgabe7Exe
+.PHONY : aufgabe7Exe
+
+# fast build rule for target.
+aufgabe7Exe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe7Exe.dir\build.make CMakeFiles/aufgabe7Exe.dir/build
+.PHONY : aufgabe7Exe/fast
+
 05/Date.obj: 05/Date.cpp.obj
 
 .PHONY : 05/Date.obj
@@ -802,6 +815,141 @@ Aufgabe6/Person.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe6Exe.dir\build.make CMakeFiles/aufgabe6Exe.dir/Aufgabe6/Person.cpp.s
 .PHONY : Aufgabe6/Person.cpp.s
 
+Aufgabe7/Aufgabe7.obj: Aufgabe7/Aufgabe7.cpp.obj
+
+.PHONY : Aufgabe7/Aufgabe7.obj
+
+# target to build an object file
+Aufgabe7/Aufgabe7.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe7Exe.dir\build.make CMakeFiles/aufgabe7Exe.dir/Aufgabe7/Aufgabe7.cpp.obj
+.PHONY : Aufgabe7/Aufgabe7.cpp.obj
+
+Aufgabe7/Aufgabe7.i: Aufgabe7/Aufgabe7.cpp.i
+
+.PHONY : Aufgabe7/Aufgabe7.i
+
+# target to preprocess a source file
+Aufgabe7/Aufgabe7.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe7Exe.dir\build.make CMakeFiles/aufgabe7Exe.dir/Aufgabe7/Aufgabe7.cpp.i
+.PHONY : Aufgabe7/Aufgabe7.cpp.i
+
+Aufgabe7/Aufgabe7.s: Aufgabe7/Aufgabe7.cpp.s
+
+.PHONY : Aufgabe7/Aufgabe7.s
+
+# target to generate assembly for a file
+Aufgabe7/Aufgabe7.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe7Exe.dir\build.make CMakeFiles/aufgabe7Exe.dir/Aufgabe7/Aufgabe7.cpp.s
+.PHONY : Aufgabe7/Aufgabe7.cpp.s
+
+Aufgabe7/Date.obj: Aufgabe7/Date.cpp.obj
+
+.PHONY : Aufgabe7/Date.obj
+
+# target to build an object file
+Aufgabe7/Date.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe7Exe.dir\build.make CMakeFiles/aufgabe7Exe.dir/Aufgabe7/Date.cpp.obj
+.PHONY : Aufgabe7/Date.cpp.obj
+
+Aufgabe7/Date.i: Aufgabe7/Date.cpp.i
+
+.PHONY : Aufgabe7/Date.i
+
+# target to preprocess a source file
+Aufgabe7/Date.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe7Exe.dir\build.make CMakeFiles/aufgabe7Exe.dir/Aufgabe7/Date.cpp.i
+.PHONY : Aufgabe7/Date.cpp.i
+
+Aufgabe7/Date.s: Aufgabe7/Date.cpp.s
+
+.PHONY : Aufgabe7/Date.s
+
+# target to generate assembly for a file
+Aufgabe7/Date.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe7Exe.dir\build.make CMakeFiles/aufgabe7Exe.dir/Aufgabe7/Date.cpp.s
+.PHONY : Aufgabe7/Date.cpp.s
+
+Aufgabe7/Friends.obj: Aufgabe7/Friends.cpp.obj
+
+.PHONY : Aufgabe7/Friends.obj
+
+# target to build an object file
+Aufgabe7/Friends.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe7Exe.dir\build.make CMakeFiles/aufgabe7Exe.dir/Aufgabe7/Friends.cpp.obj
+.PHONY : Aufgabe7/Friends.cpp.obj
+
+Aufgabe7/Friends.i: Aufgabe7/Friends.cpp.i
+
+.PHONY : Aufgabe7/Friends.i
+
+# target to preprocess a source file
+Aufgabe7/Friends.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe7Exe.dir\build.make CMakeFiles/aufgabe7Exe.dir/Aufgabe7/Friends.cpp.i
+.PHONY : Aufgabe7/Friends.cpp.i
+
+Aufgabe7/Friends.s: Aufgabe7/Friends.cpp.s
+
+.PHONY : Aufgabe7/Friends.s
+
+# target to generate assembly for a file
+Aufgabe7/Friends.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe7Exe.dir\build.make CMakeFiles/aufgabe7Exe.dir/Aufgabe7/Friends.cpp.s
+.PHONY : Aufgabe7/Friends.cpp.s
+
+Aufgabe7/Person.obj: Aufgabe7/Person.cpp.obj
+
+.PHONY : Aufgabe7/Person.obj
+
+# target to build an object file
+Aufgabe7/Person.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe7Exe.dir\build.make CMakeFiles/aufgabe7Exe.dir/Aufgabe7/Person.cpp.obj
+.PHONY : Aufgabe7/Person.cpp.obj
+
+Aufgabe7/Person.i: Aufgabe7/Person.cpp.i
+
+.PHONY : Aufgabe7/Person.i
+
+# target to preprocess a source file
+Aufgabe7/Person.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe7Exe.dir\build.make CMakeFiles/aufgabe7Exe.dir/Aufgabe7/Person.cpp.i
+.PHONY : Aufgabe7/Person.cpp.i
+
+Aufgabe7/Person.s: Aufgabe7/Person.cpp.s
+
+.PHONY : Aufgabe7/Person.s
+
+# target to generate assembly for a file
+Aufgabe7/Person.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe7Exe.dir\build.make CMakeFiles/aufgabe7Exe.dir/Aufgabe7/Person.cpp.s
+.PHONY : Aufgabe7/Person.cpp.s
+
+Aufgabe7/Vector.obj: Aufgabe7/Vector.cpp.obj
+
+.PHONY : Aufgabe7/Vector.obj
+
+# target to build an object file
+Aufgabe7/Vector.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe7Exe.dir\build.make CMakeFiles/aufgabe7Exe.dir/Aufgabe7/Vector.cpp.obj
+.PHONY : Aufgabe7/Vector.cpp.obj
+
+Aufgabe7/Vector.i: Aufgabe7/Vector.cpp.i
+
+.PHONY : Aufgabe7/Vector.i
+
+# target to preprocess a source file
+Aufgabe7/Vector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe7Exe.dir\build.make CMakeFiles/aufgabe7Exe.dir/Aufgabe7/Vector.cpp.i
+.PHONY : Aufgabe7/Vector.cpp.i
+
+Aufgabe7/Vector.s: Aufgabe7/Vector.cpp.s
+
+.PHONY : Aufgabe7/Vector.s
+
+# target to generate assembly for a file
+Aufgabe7/Vector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe7Exe.dir\build.make CMakeFiles/aufgabe7Exe.dir/Aufgabe7/Vector.cpp.s
+.PHONY : Aufgabe7/Vector.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -818,6 +966,7 @@ help:
 	@echo ... aufgabe4Exe
 	@echo ... aufgabe5Exe
 	@echo ... aufgabe6Exe
+	@echo ... aufgabe7Exe
 	@echo ... 05/Date.obj
 	@echo ... 05/Date.i
 	@echo ... 05/Date.s
@@ -881,6 +1030,21 @@ help:
 	@echo ... Aufgabe6/Person.obj
 	@echo ... Aufgabe6/Person.i
 	@echo ... Aufgabe6/Person.s
+	@echo ... Aufgabe7/Aufgabe7.obj
+	@echo ... Aufgabe7/Aufgabe7.i
+	@echo ... Aufgabe7/Aufgabe7.s
+	@echo ... Aufgabe7/Date.obj
+	@echo ... Aufgabe7/Date.i
+	@echo ... Aufgabe7/Date.s
+	@echo ... Aufgabe7/Friends.obj
+	@echo ... Aufgabe7/Friends.i
+	@echo ... Aufgabe7/Friends.s
+	@echo ... Aufgabe7/Person.obj
+	@echo ... Aufgabe7/Person.i
+	@echo ... Aufgabe7/Person.s
+	@echo ... Aufgabe7/Vector.obj
+	@echo ... Aufgabe7/Vector.i
+	@echo ... Aufgabe7/Vector.s
 .PHONY : help
 
 

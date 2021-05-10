@@ -79,6 +79,7 @@ all: CMakeFiles/05.dir/all
 all: CMakeFiles/aufgabe4Exe.dir/all
 all: CMakeFiles/aufgabe5Exe.dir/all
 all: CMakeFiles/aufgabe6Exe.dir/all
+all: CMakeFiles/aufgabe7Exe.dir/all
 
 .PHONY : all
 
@@ -96,6 +97,7 @@ clean: CMakeFiles/05.dir/clean
 clean: CMakeFiles/aufgabe4Exe.dir/clean
 clean: CMakeFiles/aufgabe5Exe.dir/clean
 clean: CMakeFiles/aufgabe6Exe.dir/clean
+clean: CMakeFiles/aufgabe7Exe.dir/clean
 
 .PHONY : clean
 
@@ -314,6 +316,33 @@ aufgabe6Exe: CMakeFiles/aufgabe6Exe.dir/rule
 CMakeFiles/aufgabe6Exe.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe6Exe.dir\build.make CMakeFiles/aufgabe6Exe.dir/clean
 .PHONY : CMakeFiles/aufgabe6Exe.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/aufgabe7Exe.dir
+
+# All Build rule for target.
+CMakeFiles/aufgabe7Exe.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe7Exe.dir\build.make CMakeFiles/aufgabe7Exe.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe7Exe.dir\build.make CMakeFiles/aufgabe7Exe.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\OneDrive\OneDrive - Hochschule Furtwangen\Studium\Semester 6\OOP\CLion\cmake-build-debug\CMakeFiles" --progress-num=31,32,33,34,35,36 "Built target aufgabe7Exe"
+.PHONY : CMakeFiles/aufgabe7Exe.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/aufgabe7Exe.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\OneDrive\OneDrive - Hochschule Furtwangen\Studium\Semester 6\OOP\CLion\cmake-build-debug\CMakeFiles" 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/aufgabe7Exe.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\OneDrive\OneDrive - Hochschule Furtwangen\Studium\Semester 6\OOP\CLion\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/aufgabe7Exe.dir/rule
+
+# Convenience name for target.
+aufgabe7Exe: CMakeFiles/aufgabe7Exe.dir/rule
+
+.PHONY : aufgabe7Exe
+
+# clean rule for target.
+CMakeFiles/aufgabe7Exe.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe7Exe.dir\build.make CMakeFiles/aufgabe7Exe.dir/clean
+.PHONY : CMakeFiles/aufgabe7Exe.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

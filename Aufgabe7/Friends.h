@@ -45,6 +45,7 @@ public:
     bool operator==(const Friends &other) const;
 
     bool operator!=(const Friends &other) const;
+
 };
 
 

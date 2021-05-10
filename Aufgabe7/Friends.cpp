@@ -5,7 +5,6 @@
 #include "Friends.h"
 #include "Person.h"
 #include "Date.h"
-#include "../Aufgabe7/Friends.h"
 #include <iostream>
 #include <cassert>
 
@@ -114,7 +113,20 @@ bool Friends::operator==(const Friends &other) const {
 }
 
 bool Friends::operator!=(const Friends &other) const {
-    return !(*this == other);
+    if (this->getSize() != other.getSize())
+        return true;
+    for (int i = 0; i < this->getSize(); i++) {
+        if (this->name(i) != other.name(i))
+            return true;
+    }
+    return false;
 }
 
-
+// Aufgabe 2
+std::ostream &operator<<(std::ostream &out, const Friends &d) {
+    out << "size:" << d.size << " friends: ";
+    for (int i = 0; i < d.size; i++) {
+        out << d.names[i] << " ";
+    }
+    return out;
+}

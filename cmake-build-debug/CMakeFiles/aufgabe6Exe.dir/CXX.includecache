@@ -15,6 +15,8 @@ Person.h
 E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/Aufgabe6/Person.h
 Date.h
 E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/Aufgabe6/Date.h
+../Aufgabe7/Friends.h
+E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/Aufgabe7/Friends.h
 iostream
 -
 cassert
@@ -30,5 +32,11 @@ E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/Aufgab
 Date.h
 E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/Aufgabe6/Date.h
 iostream
+-
+
+E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/Aufgabe7/Friends.h
+iostream
+-
+cassert
 -
 
