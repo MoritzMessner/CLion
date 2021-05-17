@@ -13,7 +13,7 @@ void test_friends() {
 
     // Aufgabe 1
     std::string names[2] = {"Donald", "Daisy"};
-    Friends friends(names, 2);
+    ArrayList friends(names, 2);
     friends.add("Gustav");
 
     assert(friends.name(2) == "Gustav");
@@ -23,7 +23,7 @@ void test_friends() {
 
 void test_operators(){
     std::string names[2] = {"Op1", "Op2"};
-    Friends friends(names, 2);
+    ArrayList friends(names, 2);
     auto friends2 = friends;
     assert((friends==friends2) == true);
     assert((friends!=friends2) == false);

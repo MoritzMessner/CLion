@@ -39,8 +39,8 @@ void person_copy_test() {
 void friends_copy_test() {
     std::string names[] = {"Donald", "Daisy"};
     //std::string other_names[2] = {"Fix", "Foxy"};
-    Friends friends(names, 2);
-    Friends other_friends = friends;
+    ArrayList friends(names, 2);
+    ArrayList other_friends = friends;
     int a = 12;
     other_friends.set_names(a);
     std::cout << other_friends.get_size() << std::endl;

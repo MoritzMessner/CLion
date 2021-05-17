@@ -245,6 +245,19 @@ aufgabe7Exe/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe7Exe.dir\build.make CMakeFiles/aufgabe7Exe.dir/build
 .PHONY : aufgabe7Exe/fast
 
+#=============================================================================
+# Target rules for targets named aufgabe8Exe
+
+# Build rule for target.
+aufgabe8Exe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 aufgabe8Exe
+.PHONY : aufgabe8Exe
+
+# fast build rule for target.
+aufgabe8Exe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe8Exe.dir\build.make CMakeFiles/aufgabe8Exe.dir/build
+.PHONY : aufgabe8Exe/fast
+
 05/Date.obj: 05/Date.cpp.obj
 
 .PHONY : 05/Date.obj
@@ -950,6 +963,114 @@ Aufgabe7/Vector.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe7Exe.dir\build.make CMakeFiles/aufgabe7Exe.dir/Aufgabe7/Vector.cpp.s
 .PHONY : Aufgabe7/Vector.cpp.s
 
+Aufgabe8/ArrayList.obj: Aufgabe8/ArrayList.cpp.obj
+
+.PHONY : Aufgabe8/ArrayList.obj
+
+# target to build an object file
+Aufgabe8/ArrayList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe8Exe.dir\build.make CMakeFiles/aufgabe8Exe.dir/Aufgabe8/ArrayList.cpp.obj
+.PHONY : Aufgabe8/ArrayList.cpp.obj
+
+Aufgabe8/ArrayList.i: Aufgabe8/ArrayList.cpp.i
+
+.PHONY : Aufgabe8/ArrayList.i
+
+# target to preprocess a source file
+Aufgabe8/ArrayList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe8Exe.dir\build.make CMakeFiles/aufgabe8Exe.dir/Aufgabe8/ArrayList.cpp.i
+.PHONY : Aufgabe8/ArrayList.cpp.i
+
+Aufgabe8/ArrayList.s: Aufgabe8/ArrayList.cpp.s
+
+.PHONY : Aufgabe8/ArrayList.s
+
+# target to generate assembly for a file
+Aufgabe8/ArrayList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe8Exe.dir\build.make CMakeFiles/aufgabe8Exe.dir/Aufgabe8/ArrayList.cpp.s
+.PHONY : Aufgabe8/ArrayList.cpp.s
+
+Aufgabe8/Aufgabe8.obj: Aufgabe8/Aufgabe8.cpp.obj
+
+.PHONY : Aufgabe8/Aufgabe8.obj
+
+# target to build an object file
+Aufgabe8/Aufgabe8.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe8Exe.dir\build.make CMakeFiles/aufgabe8Exe.dir/Aufgabe8/Aufgabe8.cpp.obj
+.PHONY : Aufgabe8/Aufgabe8.cpp.obj
+
+Aufgabe8/Aufgabe8.i: Aufgabe8/Aufgabe8.cpp.i
+
+.PHONY : Aufgabe8/Aufgabe8.i
+
+# target to preprocess a source file
+Aufgabe8/Aufgabe8.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe8Exe.dir\build.make CMakeFiles/aufgabe8Exe.dir/Aufgabe8/Aufgabe8.cpp.i
+.PHONY : Aufgabe8/Aufgabe8.cpp.i
+
+Aufgabe8/Aufgabe8.s: Aufgabe8/Aufgabe8.cpp.s
+
+.PHONY : Aufgabe8/Aufgabe8.s
+
+# target to generate assembly for a file
+Aufgabe8/Aufgabe8.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe8Exe.dir\build.make CMakeFiles/aufgabe8Exe.dir/Aufgabe8/Aufgabe8.cpp.s
+.PHONY : Aufgabe8/Aufgabe8.cpp.s
+
+Aufgabe8/Date.obj: Aufgabe8/Date.cpp.obj
+
+.PHONY : Aufgabe8/Date.obj
+
+# target to build an object file
+Aufgabe8/Date.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe8Exe.dir\build.make CMakeFiles/aufgabe8Exe.dir/Aufgabe8/Date.cpp.obj
+.PHONY : Aufgabe8/Date.cpp.obj
+
+Aufgabe8/Date.i: Aufgabe8/Date.cpp.i
+
+.PHONY : Aufgabe8/Date.i
+
+# target to preprocess a source file
+Aufgabe8/Date.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe8Exe.dir\build.make CMakeFiles/aufgabe8Exe.dir/Aufgabe8/Date.cpp.i
+.PHONY : Aufgabe8/Date.cpp.i
+
+Aufgabe8/Date.s: Aufgabe8/Date.cpp.s
+
+.PHONY : Aufgabe8/Date.s
+
+# target to generate assembly for a file
+Aufgabe8/Date.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe8Exe.dir\build.make CMakeFiles/aufgabe8Exe.dir/Aufgabe8/Date.cpp.s
+.PHONY : Aufgabe8/Date.cpp.s
+
+Aufgabe8/Person.obj: Aufgabe8/Person.cpp.obj
+
+.PHONY : Aufgabe8/Person.obj
+
+# target to build an object file
+Aufgabe8/Person.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe8Exe.dir\build.make CMakeFiles/aufgabe8Exe.dir/Aufgabe8/Person.cpp.obj
+.PHONY : Aufgabe8/Person.cpp.obj
+
+Aufgabe8/Person.i: Aufgabe8/Person.cpp.i
+
+.PHONY : Aufgabe8/Person.i
+
+# target to preprocess a source file
+Aufgabe8/Person.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe8Exe.dir\build.make CMakeFiles/aufgabe8Exe.dir/Aufgabe8/Person.cpp.i
+.PHONY : Aufgabe8/Person.cpp.i
+
+Aufgabe8/Person.s: Aufgabe8/Person.cpp.s
+
+.PHONY : Aufgabe8/Person.s
+
+# target to generate assembly for a file
+Aufgabe8/Person.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe8Exe.dir\build.make CMakeFiles/aufgabe8Exe.dir/Aufgabe8/Person.cpp.s
+.PHONY : Aufgabe8/Person.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -967,6 +1088,7 @@ help:
 	@echo ... aufgabe5Exe
 	@echo ... aufgabe6Exe
 	@echo ... aufgabe7Exe
+	@echo ... aufgabe8Exe
 	@echo ... 05/Date.obj
 	@echo ... 05/Date.i
 	@echo ... 05/Date.s
@@ -1045,6 +1167,18 @@ help:
 	@echo ... Aufgabe7/Vector.obj
 	@echo ... Aufgabe7/Vector.i
 	@echo ... Aufgabe7/Vector.s
+	@echo ... Aufgabe8/ArrayList.obj
+	@echo ... Aufgabe8/ArrayList.i
+	@echo ... Aufgabe8/ArrayList.s
+	@echo ... Aufgabe8/Aufgabe8.obj
+	@echo ... Aufgabe8/Aufgabe8.i
+	@echo ... Aufgabe8/Aufgabe8.s
+	@echo ... Aufgabe8/Date.obj
+	@echo ... Aufgabe8/Date.i
+	@echo ... Aufgabe8/Date.s
+	@echo ... Aufgabe8/Person.obj
+	@echo ... Aufgabe8/Person.i
+	@echo ... Aufgabe8/Person.s
 .PHONY : help
 
 

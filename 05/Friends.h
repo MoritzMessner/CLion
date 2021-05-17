@@ -8,7 +8,7 @@
 #include <string>
 
 
-class Friends {
+class ArrayList {
 private:
     std::string *names;
     int size;
@@ -16,11 +16,11 @@ private:
     static int validate_size(const int _size);
 
 public:
-    Friends(std::string *names, int size);
+    ArrayList(std::string *names, int size);
 
-    Friends();
+    ArrayList();
 
-    Friends(const Friends &_otherFriends);
+    ArrayList(const ArrayList &_otherFriends);
 
 
     std::string *get_names() const;

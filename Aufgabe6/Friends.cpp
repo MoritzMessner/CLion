@@ -12,32 +12,32 @@
 
 // Constructors
 
-Friends::Friends(std::string names[], int length) : size(validateSize(names, length)),
+ArrayList::ArrayList(std::string names[], int length) : size(validateSize(names, length)),
                                                     names(copyArray(names, length)) {
 
 }
 
-Friends::Friends() : Friends(nullptr, 0) {
+ArrayList::ArrayList() : ArrayList(nullptr, 0) {
 
 }
 
-Friends::Friends(const Friends &_otherFriends) : Friends(_otherFriends.getNames(), _otherFriends.getSize()) {
+ArrayList::ArrayList(const ArrayList &_otherFriends) : ArrayList(_otherFriends.getNames(), _otherFriends.getSize()) {
 
 }
 
-Friends::~Friends() {
+ArrayList::~ArrayList() {
     std::cout << "in deconstructor: " << names[0] << std::endl;
     delete[] names;
 }
 
 // validate input parameters
-int Friends::validateSize(std::string *pString, int length) {
+int ArrayList::validateSize(std::string *pString, int length) {
     if ((pString == nullptr && length == 0) || length >= 0)
         return length;
     throw std::invalid_argument("falscher size ");
 }
 
-std::string *Friends::copyArray(std::string *pString, int length, bool flag) {
+std::string *ArrayList::copyArray(std::string *pString, int length, bool flag) {
     if (pString == nullptr)
         return pString;
     auto *returner = new std::string[length];
@@ -54,56 +54,56 @@ std::string *Friends::copyArray(std::string *pString, int length, bool flag) {
     return returner;
 }
 
-const std::string &Friends::name(int v) const {
+const std::string &ArrayList::name(int v) const {
     if (v >= this->getSize() || v < 0)
         throw std::invalid_argument("im index ist was falsch ");
     return this->names[v];
 }
 
-void Friends::set_name_on_position(int _position, const std::string &_value) {
+void ArrayList::set_name_on_position(int _position, const std::string &_value) {
     if (_position >= this->getSize() || _position < 0)
         throw std::invalid_argument("im index ist was falsch ");
     names[_position] = _value;
 }
 // setter and getter
 
-int Friends::getSize() const {
+int ArrayList::getSize() const {
     return this->size;
 }
 
-void Friends::setSize(int _new_size) {
+void ArrayList::setSize(int _new_size) {
     this->size = _new_size;
 }
 
-void Friends::setNames(std::string _names[]) {
+void ArrayList::setNames(std::string _names[]) {
     this->names = _names;
 }
 
 
-std::string *Friends::getNames() const {
+std::string *ArrayList::getNames() const {
     return names;
 }
 
-void Friends::add(const std::string &name) {
+void ArrayList::add(const std::string &name) {
     this->setSize(this->getSize() + 1);
     this->setNames(this->copyArray(names, this->getSize(), true));
     set_name_on_position(this->getSize() - 1, name);
 }
 
-void Friends::deconstruct() {
+void ArrayList::deconstruct() {
     // Aufgabe 2
     std::string test[2] = {"Johannes", "Daisy"};
-    Friends a(test, 2);
+    ArrayList a(test, 2);
     a.getSize();
 
     std::string test1[2] = {"Hans", "Daisy"};
-    auto *b = new Friends(test1, 2);
+    auto *b = new ArrayList(test1, 2);
     b->getSize();
     delete b;
 }
 
 // Aufgabe 3
-bool Friends::operator==(const Friends &other) const {
+bool ArrayList::operator==(const ArrayList &other) const {
     if (this->getSize() != other.getSize())
         return false;
     for (int i = 0; i < this->getSize(); i++) {
@@ -113,7 +113,7 @@ bool Friends::operator==(const Friends &other) const {
     return true;
 }
 
-bool Friends::operator!=(const Friends &other) const {
+bool ArrayList::operator!=(const ArrayList &other) const {
     return !(*this == other);
 }
 

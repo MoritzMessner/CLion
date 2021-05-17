@@ -5,35 +5,35 @@
 #include "Friends.h"
 
 
-Friends::Friends(std::string *names, int size) : names(validate_names(names, size)), size(validate_size(size)) {
+ArrayList::ArrayList(std::string *names, int size) : names(validate_names(names, size)), size(validate_size(size)) {
     std::cout << "ctr called" << std::endl;
 }
 
-Friends::Friends() : Friends(nullptr, 0) {}
+ArrayList::ArrayList() : ArrayList(nullptr, 0) {}
 
-std::string *Friends::get_names() const {
+std::string *ArrayList::get_names() const {
     return names;
 }
 
-int Friends::get_size() const {
+int ArrayList::get_size() const {
     return size;
 }
 
-std::string &Friends::name(int v) {
+std::string &ArrayList::name(int v) {
     if (v >= size || v < 0) {
         throw std::invalid_argument("This position does not exist!");
     }
     return names[v];
 }
 
-int Friends::validate_size(int _size) {
+int ArrayList::validate_size(int _size) {
     if (_size < 0) {
         throw std::invalid_argument("Size cannot be less than 0!");
     }
     return _size;
 }
 
-std::string *Friends::validate_names(std::string *_names, int _size) {
+std::string *ArrayList::validate_names(std::string *_names, int _size) {
     if (_size > 0) {
         std::string *copy = new std::string[_size];
         for (int i = 0; i <= _size; i++) {
@@ -44,20 +44,20 @@ std::string *Friends::validate_names(std::string *_names, int _size) {
     return nullptr;
 }
 
-Friends::Friends(const Friends &_otherFriends) : Friends(_otherFriends.get_names(), _otherFriends.get_size()) {
+ArrayList::ArrayList(const ArrayList &_otherFriends) : ArrayList(_otherFriends.get_names(), _otherFriends.get_size()) {
 
 }
 
 
-void Friends::set_names(const int &_test) {
+void ArrayList::set_names(const int &_test) {
     std::cout << _test << std::endl;
-    //Friends::names = _names;
-    // Friends::size = _size;
+    //ArrayList::names = _names;
+    // ArrayList::size = _size;
     //this->size = _size;
 }
 
 /*
-void Friends::change_friend(const std::string &_name, const int &_position) {
+void ArrayList::change_friend(const std::string &_name, const int &_position) {
     names[_position] = _name;
 }
  */

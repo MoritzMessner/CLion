@@ -8,7 +8,7 @@
 #include <iostream>
 #include <cassert>
 
-class Friends {
+class ArrayList {
 private:
     int size;
     std::string *names{};
@@ -18,13 +18,13 @@ private:
     std::string *copyArray(std::string *pString, int length, bool flag = false);
 
 public:
-    Friends(std::string names[], int length);
+    ArrayList(std::string names[], int length);
 
-    Friends();
+    ArrayList();
 
-    Friends(const Friends &_otherFriends);
+    ArrayList(const ArrayList &_otherFriends);
 
-    ~Friends();
+    ~ArrayList();
 
     int getSize() const;
 
@@ -42,9 +42,9 @@ public:
 
     void deconstruct();
 
-    bool operator==(const Friends &other) const;
+    bool operator==(const ArrayList &other) const;
 
-    bool operator!=(const Friends &other) const;
+    bool operator!=(const ArrayList &other) const;
 };
 
 

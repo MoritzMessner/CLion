@@ -26,6 +26,7 @@ public:
 
     ~Friends();
 
+
     int getSize() const;
 
     std::string *getNames() const;
@@ -46,6 +47,11 @@ public:
 
     bool operator!=(const Friends &other) const;
 
+    friend std::ostream &operator<<(std::ostream &out, const Friends &_friend);
+
+    Friends &operator=(const Friends &other);
+
+    const std::string &operator[](int _position) const;
 };
 
 

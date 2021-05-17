@@ -38,19 +38,19 @@ namespace AufgabeFive {
 
     void test_friends() {
         std::string names[] = {"Friedrich", "Olav", "Heinz"};
-        Friends a(names, 3);
+        ArrayList a(names, 3);
         assert(a.name(1) == "Olav");
 
 
 /*
          // Hier wäre Kopierkunstruktor sinnvoll
-         Friends b = a;
+         ArrayList b = a;
          a.set_name_on_position(1, "Willi");
          assert(a.name(1) == "Willi"); -> wahr
          assert(b.name(1) == "Willi"); -> wahr
          b.getNames();
  */
-        Friends b = a;
+        ArrayList b = a;
         a.set_name_on_position(1, "Willi");
         assert(a.name(1) == "Willi"); // -> wahr
         assert(b.name(1) == "Olav"); // -> wahr

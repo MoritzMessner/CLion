@@ -8,7 +8,7 @@
 #include <iostream>
 #include <cassert>
 
-class Friends {
+class ArrayList {
 private:
     int size;
     std::string *names{};
@@ -18,10 +18,10 @@ private:
     std::string *copyArray(std::string *pString, int length);
 
 public:
-    Friends(std::string names[], int length);
+    ArrayList(std::string names[], int length);
 
-    Friends();
-    Friends(const Friends& _otherFriends);
+    ArrayList();
+    ArrayList(const ArrayList& _otherFriends);
 
     int getSize() const;
 

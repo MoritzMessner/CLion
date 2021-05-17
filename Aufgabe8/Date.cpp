@@ -2,7 +2,6 @@
 // Created by moritz on 30.03.2021.
 //
 #include <iostream>
-#include "Date.h"
 #include "../Aufgabe8/Date.h"
 
 
@@ -30,9 +29,8 @@ Date::Date(int _year, int _month, int _day) : year(_year), month(_month), day(va
 }
 
 
-
-void Date::set_year(int _year){
-    this->year=_year;
+void Date::set_year(int _year) {
+    this->year = _year;
 }
 
 int Date::get_year() const {
@@ -47,5 +45,9 @@ int Date::get_day() const {
     return this->day;
 }
 
-
-
+bool Date::operator==(const Date &other) const {
+    if (this->get_year() == other.get_year() && this->get_month() == other.get_month() &&
+        this->get_day() == other.get_day())
+        return true;
+    return false;
+}
