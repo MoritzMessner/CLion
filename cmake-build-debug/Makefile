@@ -258,6 +258,19 @@ aufgabe8Exe/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe8Exe.dir\build.make CMakeFiles/aufgabe8Exe.dir/build
 .PHONY : aufgabe8Exe/fast
 
+#=============================================================================
+# Target rules for targets named aufgabe9Exe
+
+# Build rule for target.
+aufgabe9Exe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 aufgabe9Exe
+.PHONY : aufgabe9Exe
+
+# fast build rule for target.
+aufgabe9Exe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe9Exe.dir\build.make CMakeFiles/aufgabe9Exe.dir/build
+.PHONY : aufgabe9Exe/fast
+
 05/Date.obj: 05/Date.cpp.obj
 
 .PHONY : 05/Date.obj
@@ -1071,6 +1084,36 @@ Aufgabe8/Person.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe8Exe.dir\build.make CMakeFiles/aufgabe8Exe.dir/Aufgabe8/Person.cpp.s
 .PHONY : Aufgabe8/Person.cpp.s
 
+Aufgabe9/Aufgabe9.obj: Aufgabe9/Aufgabe9.cpp.obj
+
+.PHONY : Aufgabe9/Aufgabe9.obj
+
+# target to build an object file
+Aufgabe9/Aufgabe9.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make CMakeFiles/05.dir/Aufgabe9/Aufgabe9.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe9Exe.dir\build.make CMakeFiles/aufgabe9Exe.dir/Aufgabe9/Aufgabe9.cpp.obj
+.PHONY : Aufgabe9/Aufgabe9.cpp.obj
+
+Aufgabe9/Aufgabe9.i: Aufgabe9/Aufgabe9.cpp.i
+
+.PHONY : Aufgabe9/Aufgabe9.i
+
+# target to preprocess a source file
+Aufgabe9/Aufgabe9.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make CMakeFiles/05.dir/Aufgabe9/Aufgabe9.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe9Exe.dir\build.make CMakeFiles/aufgabe9Exe.dir/Aufgabe9/Aufgabe9.cpp.i
+.PHONY : Aufgabe9/Aufgabe9.cpp.i
+
+Aufgabe9/Aufgabe9.s: Aufgabe9/Aufgabe9.cpp.s
+
+.PHONY : Aufgabe9/Aufgabe9.s
+
+# target to generate assembly for a file
+Aufgabe9/Aufgabe9.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make CMakeFiles/05.dir/Aufgabe9/Aufgabe9.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe9Exe.dir\build.make CMakeFiles/aufgabe9Exe.dir/Aufgabe9/Aufgabe9.cpp.s
+.PHONY : Aufgabe9/Aufgabe9.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1089,6 +1132,7 @@ help:
 	@echo ... aufgabe6Exe
 	@echo ... aufgabe7Exe
 	@echo ... aufgabe8Exe
+	@echo ... aufgabe9Exe
 	@echo ... 05/Date.obj
 	@echo ... 05/Date.i
 	@echo ... 05/Date.s
@@ -1179,6 +1223,9 @@ help:
 	@echo ... Aufgabe8/Person.obj
 	@echo ... Aufgabe8/Person.i
 	@echo ... Aufgabe8/Person.s
+	@echo ... Aufgabe9/Aufgabe9.obj
+	@echo ... Aufgabe9/Aufgabe9.i
+	@echo ... Aufgabe9/Aufgabe9.s
 .PHONY : help
 
 

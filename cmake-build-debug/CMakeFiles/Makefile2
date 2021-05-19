@@ -81,6 +81,7 @@ all: CMakeFiles/aufgabe5Exe.dir/all
 all: CMakeFiles/aufgabe6Exe.dir/all
 all: CMakeFiles/aufgabe7Exe.dir/all
 all: CMakeFiles/aufgabe8Exe.dir/all
+all: CMakeFiles/aufgabe9Exe.dir/all
 
 .PHONY : all
 
@@ -100,6 +101,7 @@ clean: CMakeFiles/aufgabe5Exe.dir/clean
 clean: CMakeFiles/aufgabe6Exe.dir/clean
 clean: CMakeFiles/aufgabe7Exe.dir/clean
 clean: CMakeFiles/aufgabe8Exe.dir/clean
+clean: CMakeFiles/aufgabe9Exe.dir/clean
 
 .PHONY : clean
 
@@ -110,7 +112,7 @@ clean: CMakeFiles/aufgabe8Exe.dir/clean
 CMakeFiles/aufgabe3Exe.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe3Exe.dir\build.make CMakeFiles/aufgabe3Exe.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe3Exe.dir\build.make CMakeFiles/aufgabe3Exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\OneDrive\OneDrive - Hochschule Furtwangen\Studium\Semester 6\OOP\CLion\cmake-build-debug\CMakeFiles" --progress-num=13,14,15,16 "Built target aufgabe3Exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\OneDrive\OneDrive - Hochschule Furtwangen\Studium\Semester 6\OOP\CLion\cmake-build-debug\CMakeFiles" --progress-num=14,15,16,17 "Built target aufgabe3Exe"
 .PHONY : CMakeFiles/aufgabe3Exe.dir/all
 
 # Build rule for subdir invocation for target.
@@ -137,7 +139,7 @@ CMakeFiles/aufgabe3Exe.dir/clean:
 CMakeFiles/aufgabe1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe1.dir\build.make CMakeFiles/aufgabe1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe1.dir\build.make CMakeFiles/aufgabe1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\OneDrive\OneDrive - Hochschule Furtwangen\Studium\Semester 6\OOP\CLion\cmake-build-debug\CMakeFiles" --progress-num=6,7,8 "Built target aufgabe1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\OneDrive\OneDrive - Hochschule Furtwangen\Studium\Semester 6\OOP\CLion\cmake-build-debug\CMakeFiles" --progress-num=7,8,9 "Built target aufgabe1"
 .PHONY : CMakeFiles/aufgabe1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -164,7 +166,7 @@ CMakeFiles/aufgabe1.dir/clean:
 CMakeFiles/aufgabe1Exe.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe1Exe.dir\build.make CMakeFiles/aufgabe1Exe.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe1Exe.dir\build.make CMakeFiles/aufgabe1Exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\OneDrive\OneDrive - Hochschule Furtwangen\Studium\Semester 6\OOP\CLion\cmake-build-debug\CMakeFiles" --progress-num=9,10 "Built target aufgabe1Exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\OneDrive\OneDrive - Hochschule Furtwangen\Studium\Semester 6\OOP\CLion\cmake-build-debug\CMakeFiles" --progress-num=10,11 "Built target aufgabe1Exe"
 .PHONY : CMakeFiles/aufgabe1Exe.dir/all
 
 # Build rule for subdir invocation for target.
@@ -191,7 +193,7 @@ CMakeFiles/aufgabe1Exe.dir/clean:
 CMakeFiles/aufgabe2Exe.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe2Exe.dir\build.make CMakeFiles/aufgabe2Exe.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe2Exe.dir\build.make CMakeFiles/aufgabe2Exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\OneDrive\OneDrive - Hochschule Furtwangen\Studium\Semester 6\OOP\CLion\cmake-build-debug\CMakeFiles" --progress-num=11,12 "Built target aufgabe2Exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\OneDrive\OneDrive - Hochschule Furtwangen\Studium\Semester 6\OOP\CLion\cmake-build-debug\CMakeFiles" --progress-num=12,13 "Built target aufgabe2Exe"
 .PHONY : CMakeFiles/aufgabe2Exe.dir/all
 
 # Build rule for subdir invocation for target.
@@ -218,12 +220,12 @@ CMakeFiles/aufgabe2Exe.dir/clean:
 CMakeFiles/05.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make CMakeFiles/05.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make CMakeFiles/05.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\OneDrive\OneDrive - Hochschule Furtwangen\Studium\Semester 6\OOP\CLion\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5 "Built target 05"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\OneDrive\OneDrive - Hochschule Furtwangen\Studium\Semester 6\OOP\CLion\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5,6 "Built target 05"
 .PHONY : CMakeFiles/05.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/05.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\OneDrive\OneDrive - Hochschule Furtwangen\Studium\Semester 6\OOP\CLion\cmake-build-debug\CMakeFiles" 5
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\OneDrive\OneDrive - Hochschule Furtwangen\Studium\Semester 6\OOP\CLion\cmake-build-debug\CMakeFiles" 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/05.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "E:\OneDrive\OneDrive - Hochschule Furtwangen\Studium\Semester 6\OOP\CLion\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/05.dir/rule
@@ -245,7 +247,7 @@ CMakeFiles/05.dir/clean:
 CMakeFiles/aufgabe4Exe.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe4Exe.dir\build.make CMakeFiles/aufgabe4Exe.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe4Exe.dir\build.make CMakeFiles/aufgabe4Exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\OneDrive\OneDrive - Hochschule Furtwangen\Studium\Semester 6\OOP\CLion\cmake-build-debug\CMakeFiles" --progress-num=17,18,19,20 "Built target aufgabe4Exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\OneDrive\OneDrive - Hochschule Furtwangen\Studium\Semester 6\OOP\CLion\cmake-build-debug\CMakeFiles" --progress-num=18,19,20,21 "Built target aufgabe4Exe"
 .PHONY : CMakeFiles/aufgabe4Exe.dir/all
 
 # Build rule for subdir invocation for target.
@@ -272,7 +274,7 @@ CMakeFiles/aufgabe4Exe.dir/clean:
 CMakeFiles/aufgabe5Exe.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe5Exe.dir\build.make CMakeFiles/aufgabe5Exe.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe5Exe.dir\build.make CMakeFiles/aufgabe5Exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\OneDrive\OneDrive - Hochschule Furtwangen\Studium\Semester 6\OOP\CLion\cmake-build-debug\CMakeFiles" --progress-num=21,22,23,24,25 "Built target aufgabe5Exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\OneDrive\OneDrive - Hochschule Furtwangen\Studium\Semester 6\OOP\CLion\cmake-build-debug\CMakeFiles" --progress-num=22,23,24,25,26 "Built target aufgabe5Exe"
 .PHONY : CMakeFiles/aufgabe5Exe.dir/all
 
 # Build rule for subdir invocation for target.
@@ -299,7 +301,7 @@ CMakeFiles/aufgabe5Exe.dir/clean:
 CMakeFiles/aufgabe6Exe.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe6Exe.dir\build.make CMakeFiles/aufgabe6Exe.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe6Exe.dir\build.make CMakeFiles/aufgabe6Exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\OneDrive\OneDrive - Hochschule Furtwangen\Studium\Semester 6\OOP\CLion\cmake-build-debug\CMakeFiles" --progress-num=26,27,28,29,30 "Built target aufgabe6Exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\OneDrive\OneDrive - Hochschule Furtwangen\Studium\Semester 6\OOP\CLion\cmake-build-debug\CMakeFiles" --progress-num=27,28,29,30,31 "Built target aufgabe6Exe"
 .PHONY : CMakeFiles/aufgabe6Exe.dir/all
 
 # Build rule for subdir invocation for target.
@@ -326,7 +328,7 @@ CMakeFiles/aufgabe6Exe.dir/clean:
 CMakeFiles/aufgabe7Exe.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe7Exe.dir\build.make CMakeFiles/aufgabe7Exe.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe7Exe.dir\build.make CMakeFiles/aufgabe7Exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\OneDrive\OneDrive - Hochschule Furtwangen\Studium\Semester 6\OOP\CLion\cmake-build-debug\CMakeFiles" --progress-num=31,32,33,34,35,36 "Built target aufgabe7Exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\OneDrive\OneDrive - Hochschule Furtwangen\Studium\Semester 6\OOP\CLion\cmake-build-debug\CMakeFiles" --progress-num=32,33,34,35,36,37 "Built target aufgabe7Exe"
 .PHONY : CMakeFiles/aufgabe7Exe.dir/all
 
 # Build rule for subdir invocation for target.
@@ -353,7 +355,7 @@ CMakeFiles/aufgabe7Exe.dir/clean:
 CMakeFiles/aufgabe8Exe.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe8Exe.dir\build.make CMakeFiles/aufgabe8Exe.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe8Exe.dir\build.make CMakeFiles/aufgabe8Exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\OneDrive\OneDrive - Hochschule Furtwangen\Studium\Semester 6\OOP\CLion\cmake-build-debug\CMakeFiles" --progress-num=37,38,39,40,41 "Built target aufgabe8Exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\OneDrive\OneDrive - Hochschule Furtwangen\Studium\Semester 6\OOP\CLion\cmake-build-debug\CMakeFiles" --progress-num=38,39,40,41,42 "Built target aufgabe8Exe"
 .PHONY : CMakeFiles/aufgabe8Exe.dir/all
 
 # Build rule for subdir invocation for target.
@@ -372,6 +374,33 @@ aufgabe8Exe: CMakeFiles/aufgabe8Exe.dir/rule
 CMakeFiles/aufgabe8Exe.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe8Exe.dir\build.make CMakeFiles/aufgabe8Exe.dir/clean
 .PHONY : CMakeFiles/aufgabe8Exe.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/aufgabe9Exe.dir
+
+# All Build rule for target.
+CMakeFiles/aufgabe9Exe.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe9Exe.dir\build.make CMakeFiles/aufgabe9Exe.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe9Exe.dir\build.make CMakeFiles/aufgabe9Exe.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\OneDrive\OneDrive - Hochschule Furtwangen\Studium\Semester 6\OOP\CLion\cmake-build-debug\CMakeFiles" --progress-num=43,44 "Built target aufgabe9Exe"
+.PHONY : CMakeFiles/aufgabe9Exe.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/aufgabe9Exe.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\OneDrive\OneDrive - Hochschule Furtwangen\Studium\Semester 6\OOP\CLion\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/aufgabe9Exe.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\OneDrive\OneDrive - Hochschule Furtwangen\Studium\Semester 6\OOP\CLion\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/aufgabe9Exe.dir/rule
+
+# Convenience name for target.
+aufgabe9Exe: CMakeFiles/aufgabe9Exe.dir/rule
+
+.PHONY : aufgabe9Exe
+
+# clean rule for target.
+CMakeFiles/aufgabe9Exe.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe9Exe.dir\build.make CMakeFiles/aufgabe9Exe.dir/clean
+.PHONY : CMakeFiles/aufgabe9Exe.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

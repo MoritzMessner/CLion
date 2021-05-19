@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/05.dir/05/Friends.cpp.obj"
   "CMakeFiles/05.dir/05/Person.cpp.obj"
   "CMakeFiles/05.dir/05/main.cpp.obj"
+  "CMakeFiles/05.dir/Aufgabe9/Aufgabe9.cpp.obj"
   "lib05.dll.a"
 )
 
