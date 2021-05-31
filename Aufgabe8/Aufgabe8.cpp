@@ -51,8 +51,8 @@ namespace aufgabeAcht {
         Date date3(2019, 12, 24);
         Date date4(1989, 11, 9);
         Date dates[] = {date1, date2, date3};
-        for (int i = 0; i < 3; i++) {
-            assert(find(dates, 3, dates[i]));
+        for (auto date : dates) {
+            assert(find(dates, 3, date));
         }
         assert(!find(dates, 3, date4));
     }
