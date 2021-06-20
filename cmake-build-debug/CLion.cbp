@@ -17,90 +17,6 @@
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="aufgabe3Exe">
-				<Option output="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/aufgabe3Exe.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 aufgabe3Exe"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="aufgabe3Exe/fast">
-				<Option output="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/aufgabe3Exe.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 aufgabe3Exe/fast"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="aufgabe1">
-				<Option output="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/aufgabe1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 aufgabe1"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="aufgabe1/fast">
-				<Option output="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/aufgabe1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 aufgabe1/fast"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="aufgabe1Exe">
 				<Option output="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/aufgabe1Exe.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug"/>
@@ -185,8 +101,8 @@
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="05">
-				<Option output="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/05.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="aufgabe3Exe">
+				<Option output="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/aufgabe3Exe.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -200,14 +116,14 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 05"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 aufgabe3Exe"/>
 					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="05/fast">
-				<Option output="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/05.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="aufgabe3Exe/fast">
+				<Option output="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/aufgabe3Exe.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -221,7 +137,7 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 05/fast"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 aufgabe3Exe/fast"/>
 					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -479,6 +395,90 @@
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="aufgabe10Exe">
+				<Option output="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/aufgabe10Exe.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 aufgabe10Exe"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="aufgabe10Exe/fast">
+				<Option output="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/aufgabe10Exe.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 aufgabe10Exe/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="aufgabe11Exe">
+				<Option output="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/aufgabe11Exe.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 aufgabe11Exe"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="aufgabe11Exe/fast">
+				<Option output="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/aufgabe11Exe.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 aufgabe11Exe/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/cmake-build-debug"/>
 				<Option type="4"/>
@@ -500,38 +500,17 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/05/Date.cpp">
-			<Option target="05"/>
-		</Unit>
-		<Unit filename="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/05/Date.h">
-			<Option target="05"/>
-		</Unit>
-		<Unit filename="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/05/Friends.cpp">
-			<Option target="05"/>
-		</Unit>
-		<Unit filename="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/05/Friends.h">
-			<Option target="05"/>
-		</Unit>
-		<Unit filename="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/05/Person.cpp">
-			<Option target="05"/>
-		</Unit>
-		<Unit filename="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/05/Person.h">
-			<Option target="05"/>
-		</Unit>
-		<Unit filename="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/05/main.cpp">
-			<Option target="05"/>
-		</Unit>
 		<Unit filename="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/Aufgabe1/Aufgabe1.cpp">
 			<Option target="aufgabe1Exe"/>
 		</Unit>
 		<Unit filename="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/Aufgabe1/Aufgabe1.h">
 			<Option target="aufgabe1Exe"/>
 		</Unit>
-		<Unit filename="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/Aufgabe1/main.cpp">
-			<Option target="aufgabe1"/>
+		<Unit filename="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/Aufgabe10/main.cpp">
+			<Option target="aufgabe10Exe"/>
 		</Unit>
-		<Unit filename="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/Aufgabe1/main.h">
-			<Option target="aufgabe1"/>
+		<Unit filename="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/Aufgabe11/main.cpp">
+			<Option target="aufgabe11Exe"/>
 		</Unit>
 		<Unit filename="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/Aufgabe2/Aufgabe2.cpp">
 			<Option target="aufgabe2Exe"/>
@@ -574,11 +553,9 @@
 			<Option target="aufgabe4Exe"/>
 		</Unit>
 		<Unit filename="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/Aufgabe5/Aufgabe5.cpp">
-			<Option target="aufgabe1"/>
 			<Option target="aufgabe5Exe"/>
 		</Unit>
 		<Unit filename="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/Aufgabe5/Aufgabe5.h">
-			<Option target="aufgabe1"/>
 			<Option target="aufgabe5Exe"/>
 		</Unit>
 		<Unit filename="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/Aufgabe5/Date.cpp">
@@ -675,11 +652,9 @@
 			<Option target="aufgabe8Exe"/>
 		</Unit>
 		<Unit filename="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/Aufgabe9/Aufgabe9.cpp">
-			<Option target="05"/>
 			<Option target="aufgabe9Exe"/>
 		</Unit>
 		<Unit filename="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/Aufgabe9/Aufgabe9.h">
-			<Option target="05"/>
 			<Option target="aufgabe9Exe"/>
 		</Unit>
 		<Unit filename="E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/CMakeLists.txt">

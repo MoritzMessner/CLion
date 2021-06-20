@@ -25,7 +25,7 @@ namespace aufgabeAcht {
 
 
     template<typename T, typename T2>
-    bool find(T *array, int length, T2 key) {
+    bool find(T *array, int length, const T2 &key) {
         for (int i = 0; i < length; i++) {
             if (array[i] == key)
                 return true;

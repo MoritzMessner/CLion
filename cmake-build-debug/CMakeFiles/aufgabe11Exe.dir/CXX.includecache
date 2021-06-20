@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/OneDrive/OneDrive - Hochschule Furtwangen/Studium/Semester 6/OOP/CLion/Aufgabe11/main.cpp
+iostream
+-
+cassert
+-
+chrono
+-
+memory
+-
+

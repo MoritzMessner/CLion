@@ -129,32 +129,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named aufgabe3Exe
-
-# Build rule for target.
-aufgabe3Exe: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 aufgabe3Exe
-.PHONY : aufgabe3Exe
-
-# fast build rule for target.
-aufgabe3Exe/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe3Exe.dir\build.make CMakeFiles/aufgabe3Exe.dir/build
-.PHONY : aufgabe3Exe/fast
-
-#=============================================================================
-# Target rules for targets named aufgabe1
-
-# Build rule for target.
-aufgabe1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 aufgabe1
-.PHONY : aufgabe1
-
-# fast build rule for target.
-aufgabe1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe1.dir\build.make CMakeFiles/aufgabe1.dir/build
-.PHONY : aufgabe1/fast
-
-#=============================================================================
 # Target rules for targets named aufgabe1Exe
 
 # Build rule for target.
@@ -181,17 +155,17 @@ aufgabe2Exe/fast:
 .PHONY : aufgabe2Exe/fast
 
 #=============================================================================
-# Target rules for targets named 05
+# Target rules for targets named aufgabe3Exe
 
 # Build rule for target.
-05: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 05
-.PHONY : 05
+aufgabe3Exe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 aufgabe3Exe
+.PHONY : aufgabe3Exe
 
 # fast build rule for target.
-05/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make CMakeFiles/05.dir/build
-.PHONY : 05/fast
+aufgabe3Exe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe3Exe.dir\build.make CMakeFiles/aufgabe3Exe.dir/build
+.PHONY : aufgabe3Exe/fast
 
 #=============================================================================
 # Target rules for targets named aufgabe4Exe
@@ -271,113 +245,31 @@ aufgabe9Exe/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe9Exe.dir\build.make CMakeFiles/aufgabe9Exe.dir/build
 .PHONY : aufgabe9Exe/fast
 
-05/Date.obj: 05/Date.cpp.obj
+#=============================================================================
+# Target rules for targets named aufgabe10Exe
 
-.PHONY : 05/Date.obj
+# Build rule for target.
+aufgabe10Exe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 aufgabe10Exe
+.PHONY : aufgabe10Exe
 
-# target to build an object file
-05/Date.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make CMakeFiles/05.dir/05/Date.cpp.obj
-.PHONY : 05/Date.cpp.obj
+# fast build rule for target.
+aufgabe10Exe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe10Exe.dir\build.make CMakeFiles/aufgabe10Exe.dir/build
+.PHONY : aufgabe10Exe/fast
 
-05/Date.i: 05/Date.cpp.i
+#=============================================================================
+# Target rules for targets named aufgabe11Exe
 
-.PHONY : 05/Date.i
+# Build rule for target.
+aufgabe11Exe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 aufgabe11Exe
+.PHONY : aufgabe11Exe
 
-# target to preprocess a source file
-05/Date.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make CMakeFiles/05.dir/05/Date.cpp.i
-.PHONY : 05/Date.cpp.i
-
-05/Date.s: 05/Date.cpp.s
-
-.PHONY : 05/Date.s
-
-# target to generate assembly for a file
-05/Date.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make CMakeFiles/05.dir/05/Date.cpp.s
-.PHONY : 05/Date.cpp.s
-
-05/Friends.obj: 05/Friends.cpp.obj
-
-.PHONY : 05/Friends.obj
-
-# target to build an object file
-05/Friends.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make CMakeFiles/05.dir/05/Friends.cpp.obj
-.PHONY : 05/Friends.cpp.obj
-
-05/Friends.i: 05/Friends.cpp.i
-
-.PHONY : 05/Friends.i
-
-# target to preprocess a source file
-05/Friends.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make CMakeFiles/05.dir/05/Friends.cpp.i
-.PHONY : 05/Friends.cpp.i
-
-05/Friends.s: 05/Friends.cpp.s
-
-.PHONY : 05/Friends.s
-
-# target to generate assembly for a file
-05/Friends.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make CMakeFiles/05.dir/05/Friends.cpp.s
-.PHONY : 05/Friends.cpp.s
-
-05/Person.obj: 05/Person.cpp.obj
-
-.PHONY : 05/Person.obj
-
-# target to build an object file
-05/Person.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make CMakeFiles/05.dir/05/Person.cpp.obj
-.PHONY : 05/Person.cpp.obj
-
-05/Person.i: 05/Person.cpp.i
-
-.PHONY : 05/Person.i
-
-# target to preprocess a source file
-05/Person.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make CMakeFiles/05.dir/05/Person.cpp.i
-.PHONY : 05/Person.cpp.i
-
-05/Person.s: 05/Person.cpp.s
-
-.PHONY : 05/Person.s
-
-# target to generate assembly for a file
-05/Person.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make CMakeFiles/05.dir/05/Person.cpp.s
-.PHONY : 05/Person.cpp.s
-
-05/main.obj: 05/main.cpp.obj
-
-.PHONY : 05/main.obj
-
-# target to build an object file
-05/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make CMakeFiles/05.dir/05/main.cpp.obj
-.PHONY : 05/main.cpp.obj
-
-05/main.i: 05/main.cpp.i
-
-.PHONY : 05/main.i
-
-# target to preprocess a source file
-05/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make CMakeFiles/05.dir/05/main.cpp.i
-.PHONY : 05/main.cpp.i
-
-05/main.s: 05/main.cpp.s
-
-.PHONY : 05/main.s
-
-# target to generate assembly for a file
-05/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make CMakeFiles/05.dir/05/main.cpp.s
-.PHONY : 05/main.cpp.s
+# fast build rule for target.
+aufgabe11Exe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe11Exe.dir\build.make CMakeFiles/aufgabe11Exe.dir/build
+.PHONY : aufgabe11Exe/fast
 
 Aufgabe1/Aufgabe1.obj: Aufgabe1/Aufgabe1.cpp.obj
 
@@ -406,32 +298,59 @@ Aufgabe1/Aufgabe1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe1Exe.dir\build.make CMakeFiles/aufgabe1Exe.dir/Aufgabe1/Aufgabe1.cpp.s
 .PHONY : Aufgabe1/Aufgabe1.cpp.s
 
-Aufgabe1/main.obj: Aufgabe1/main.cpp.obj
+Aufgabe10/main.obj: Aufgabe10/main.cpp.obj
 
-.PHONY : Aufgabe1/main.obj
+.PHONY : Aufgabe10/main.obj
 
 # target to build an object file
-Aufgabe1/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe1.dir\build.make CMakeFiles/aufgabe1.dir/Aufgabe1/main.cpp.obj
-.PHONY : Aufgabe1/main.cpp.obj
+Aufgabe10/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe10Exe.dir\build.make CMakeFiles/aufgabe10Exe.dir/Aufgabe10/main.cpp.obj
+.PHONY : Aufgabe10/main.cpp.obj
 
-Aufgabe1/main.i: Aufgabe1/main.cpp.i
+Aufgabe10/main.i: Aufgabe10/main.cpp.i
 
-.PHONY : Aufgabe1/main.i
+.PHONY : Aufgabe10/main.i
 
 # target to preprocess a source file
-Aufgabe1/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe1.dir\build.make CMakeFiles/aufgabe1.dir/Aufgabe1/main.cpp.i
-.PHONY : Aufgabe1/main.cpp.i
+Aufgabe10/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe10Exe.dir\build.make CMakeFiles/aufgabe10Exe.dir/Aufgabe10/main.cpp.i
+.PHONY : Aufgabe10/main.cpp.i
 
-Aufgabe1/main.s: Aufgabe1/main.cpp.s
+Aufgabe10/main.s: Aufgabe10/main.cpp.s
 
-.PHONY : Aufgabe1/main.s
+.PHONY : Aufgabe10/main.s
 
 # target to generate assembly for a file
-Aufgabe1/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe1.dir\build.make CMakeFiles/aufgabe1.dir/Aufgabe1/main.cpp.s
-.PHONY : Aufgabe1/main.cpp.s
+Aufgabe10/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe10Exe.dir\build.make CMakeFiles/aufgabe10Exe.dir/Aufgabe10/main.cpp.s
+.PHONY : Aufgabe10/main.cpp.s
+
+Aufgabe11/main.obj: Aufgabe11/main.cpp.obj
+
+.PHONY : Aufgabe11/main.obj
+
+# target to build an object file
+Aufgabe11/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe11Exe.dir\build.make CMakeFiles/aufgabe11Exe.dir/Aufgabe11/main.cpp.obj
+.PHONY : Aufgabe11/main.cpp.obj
+
+Aufgabe11/main.i: Aufgabe11/main.cpp.i
+
+.PHONY : Aufgabe11/main.i
+
+# target to preprocess a source file
+Aufgabe11/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe11Exe.dir\build.make CMakeFiles/aufgabe11Exe.dir/Aufgabe11/main.cpp.i
+.PHONY : Aufgabe11/main.cpp.i
+
+Aufgabe11/main.s: Aufgabe11/main.cpp.s
+
+.PHONY : Aufgabe11/main.s
+
+# target to generate assembly for a file
+Aufgabe11/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe11Exe.dir\build.make CMakeFiles/aufgabe11Exe.dir/Aufgabe11/main.cpp.s
+.PHONY : Aufgabe11/main.cpp.s
 
 Aufgabe2/Aufgabe2.obj: Aufgabe2/Aufgabe2.cpp.obj
 
@@ -628,7 +547,6 @@ Aufgabe5/Aufgabe5.obj: Aufgabe5/Aufgabe5.cpp.obj
 
 # target to build an object file
 Aufgabe5/Aufgabe5.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe1.dir\build.make CMakeFiles/aufgabe1.dir/Aufgabe5/Aufgabe5.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe5Exe.dir\build.make CMakeFiles/aufgabe5Exe.dir/Aufgabe5/Aufgabe5.cpp.obj
 .PHONY : Aufgabe5/Aufgabe5.cpp.obj
 
@@ -638,7 +556,6 @@ Aufgabe5/Aufgabe5.i: Aufgabe5/Aufgabe5.cpp.i
 
 # target to preprocess a source file
 Aufgabe5/Aufgabe5.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe1.dir\build.make CMakeFiles/aufgabe1.dir/Aufgabe5/Aufgabe5.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe5Exe.dir\build.make CMakeFiles/aufgabe5Exe.dir/Aufgabe5/Aufgabe5.cpp.i
 .PHONY : Aufgabe5/Aufgabe5.cpp.i
 
@@ -648,7 +565,6 @@ Aufgabe5/Aufgabe5.s: Aufgabe5/Aufgabe5.cpp.s
 
 # target to generate assembly for a file
 Aufgabe5/Aufgabe5.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe1.dir\build.make CMakeFiles/aufgabe1.dir/Aufgabe5/Aufgabe5.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe5Exe.dir\build.make CMakeFiles/aufgabe5Exe.dir/Aufgabe5/Aufgabe5.cpp.s
 .PHONY : Aufgabe5/Aufgabe5.cpp.s
 
@@ -1090,7 +1006,6 @@ Aufgabe9/Aufgabe9.obj: Aufgabe9/Aufgabe9.cpp.obj
 
 # target to build an object file
 Aufgabe9/Aufgabe9.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make CMakeFiles/05.dir/Aufgabe9/Aufgabe9.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe9Exe.dir\build.make CMakeFiles/aufgabe9Exe.dir/Aufgabe9/Aufgabe9.cpp.obj
 .PHONY : Aufgabe9/Aufgabe9.cpp.obj
 
@@ -1100,7 +1015,6 @@ Aufgabe9/Aufgabe9.i: Aufgabe9/Aufgabe9.cpp.i
 
 # target to preprocess a source file
 Aufgabe9/Aufgabe9.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make CMakeFiles/05.dir/Aufgabe9/Aufgabe9.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe9Exe.dir\build.make CMakeFiles/aufgabe9Exe.dir/Aufgabe9/Aufgabe9.cpp.i
 .PHONY : Aufgabe9/Aufgabe9.cpp.i
 
@@ -1110,7 +1024,6 @@ Aufgabe9/Aufgabe9.s: Aufgabe9/Aufgabe9.cpp.s
 
 # target to generate assembly for a file
 Aufgabe9/Aufgabe9.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make CMakeFiles/05.dir/Aufgabe9/Aufgabe9.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe9Exe.dir\build.make CMakeFiles/aufgabe9Exe.dir/Aufgabe9/Aufgabe9.cpp.s
 .PHONY : Aufgabe9/Aufgabe9.cpp.s
 
@@ -1122,8 +1035,8 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... 05
-	@echo ... aufgabe1
+	@echo ... aufgabe10Exe
+	@echo ... aufgabe11Exe
 	@echo ... aufgabe1Exe
 	@echo ... aufgabe2Exe
 	@echo ... aufgabe3Exe
@@ -1133,24 +1046,15 @@ help:
 	@echo ... aufgabe7Exe
 	@echo ... aufgabe8Exe
 	@echo ... aufgabe9Exe
-	@echo ... 05/Date.obj
-	@echo ... 05/Date.i
-	@echo ... 05/Date.s
-	@echo ... 05/Friends.obj
-	@echo ... 05/Friends.i
-	@echo ... 05/Friends.s
-	@echo ... 05/Person.obj
-	@echo ... 05/Person.i
-	@echo ... 05/Person.s
-	@echo ... 05/main.obj
-	@echo ... 05/main.i
-	@echo ... 05/main.s
 	@echo ... Aufgabe1/Aufgabe1.obj
 	@echo ... Aufgabe1/Aufgabe1.i
 	@echo ... Aufgabe1/Aufgabe1.s
-	@echo ... Aufgabe1/main.obj
-	@echo ... Aufgabe1/main.i
-	@echo ... Aufgabe1/main.s
+	@echo ... Aufgabe10/main.obj
+	@echo ... Aufgabe10/main.i
+	@echo ... Aufgabe10/main.s
+	@echo ... Aufgabe11/main.obj
+	@echo ... Aufgabe11/main.i
+	@echo ... Aufgabe11/main.s
 	@echo ... Aufgabe2/Aufgabe2.obj
 	@echo ... Aufgabe2/Aufgabe2.i
 	@echo ... Aufgabe2/Aufgabe2.s

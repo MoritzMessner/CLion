@@ -43,13 +43,13 @@ namespace aufgabeNine {
         while (std::getline(file, line)) {
             //std::cout << "line => " << line << std::endl;
             //std::cout << "key => " << extract_airline(line) << std::endl;
-            //map[extract_airline(line)] += 1;
-            auto entety = map->find(extract_airline(line));
+            (*map)[extract_airline(line)] += 1;
+            /*auto entety = map->find(extract_airline(line));
             if (entety != map->end()) {
                 entety->second++;
             } else {
                 map->insert(std::make_pair(extract_airline(line), 1));
-            }
+            }*/
         }
         closeFile(file);
         return map;
