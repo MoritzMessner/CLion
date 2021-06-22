@@ -271,6 +271,19 @@ aufgabe11Exe/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe11Exe.dir\build.make CMakeFiles/aufgabe11Exe.dir/build
 .PHONY : aufgabe11Exe/fast
 
+#=============================================================================
+# Target rules for targets named uebung1Exe
+
+# Build rule for target.
+uebung1Exe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 uebung1Exe
+.PHONY : uebung1Exe
+
+# fast build rule for target.
+uebung1Exe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\uebung1Exe.dir\build.make CMakeFiles/uebung1Exe.dir/build
+.PHONY : uebung1Exe/fast
+
 Aufgabe1/Aufgabe1.obj: Aufgabe1/Aufgabe1.cpp.obj
 
 .PHONY : Aufgabe1/Aufgabe1.obj
@@ -1027,6 +1040,33 @@ Aufgabe9/Aufgabe9.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aufgabe9Exe.dir\build.make CMakeFiles/aufgabe9Exe.dir/Aufgabe9/Aufgabe9.cpp.s
 .PHONY : Aufgabe9/Aufgabe9.cpp.s
 
+Uebungen/uebung1.obj: Uebungen/uebung1.cpp.obj
+
+.PHONY : Uebungen/uebung1.obj
+
+# target to build an object file
+Uebungen/uebung1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\uebung1Exe.dir\build.make CMakeFiles/uebung1Exe.dir/Uebungen/uebung1.cpp.obj
+.PHONY : Uebungen/uebung1.cpp.obj
+
+Uebungen/uebung1.i: Uebungen/uebung1.cpp.i
+
+.PHONY : Uebungen/uebung1.i
+
+# target to preprocess a source file
+Uebungen/uebung1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\uebung1Exe.dir\build.make CMakeFiles/uebung1Exe.dir/Uebungen/uebung1.cpp.i
+.PHONY : Uebungen/uebung1.cpp.i
+
+Uebungen/uebung1.s: Uebungen/uebung1.cpp.s
+
+.PHONY : Uebungen/uebung1.s
+
+# target to generate assembly for a file
+Uebungen/uebung1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\uebung1Exe.dir\build.make CMakeFiles/uebung1Exe.dir/Uebungen/uebung1.cpp.s
+.PHONY : Uebungen/uebung1.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1046,6 +1086,7 @@ help:
 	@echo ... aufgabe7Exe
 	@echo ... aufgabe8Exe
 	@echo ... aufgabe9Exe
+	@echo ... uebung1Exe
 	@echo ... Aufgabe1/Aufgabe1.obj
 	@echo ... Aufgabe1/Aufgabe1.i
 	@echo ... Aufgabe1/Aufgabe1.s
@@ -1130,6 +1171,9 @@ help:
 	@echo ... Aufgabe9/Aufgabe9.obj
 	@echo ... Aufgabe9/Aufgabe9.i
 	@echo ... Aufgabe9/Aufgabe9.s
+	@echo ... Uebungen/uebung1.obj
+	@echo ... Uebungen/uebung1.i
+	@echo ... Uebungen/uebung1.s
 .PHONY : help
 
 

@@ -15,3 +15,4 @@ add_executable(aufgabe8Exe Aufgabe8/Aufgabe8.cpp Aufgabe8/Aufgabe8.h Aufgabe8/Da
 add_executable(aufgabe9Exe Aufgabe9/Aufgabe9.cpp Aufgabe9/Aufgabe9.h)
 add_executable(aufgabe10Exe Aufgabe10/main.cpp)
 add_executable(aufgabe11Exe Aufgabe11/main.cpp)
+add_executable(uebung1Exe Uebungen/uebung1.cpp)

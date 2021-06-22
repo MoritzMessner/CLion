@@ -7,6 +7,7 @@ CMakeFiles/aufgabe6Exe.dir/Aufgabe6/Aufgabe6.cpp.obj: ../Aufgabe6/Friends.h
 
 CMakeFiles/aufgabe6Exe.dir/Aufgabe6/Date.cpp.obj: ../Aufgabe6/Date.cpp
 CMakeFiles/aufgabe6Exe.dir/Aufgabe6/Date.cpp.obj: ../Aufgabe6/Date.h
+CMakeFiles/aufgabe6Exe.dir/Aufgabe6/Date.cpp.obj: ../Aufgabe8/Date.h
 
 CMakeFiles/aufgabe6Exe.dir/Aufgabe6/Friends.cpp.obj: ../Aufgabe6/Date.h
 CMakeFiles/aufgabe6Exe.dir/Aufgabe6/Friends.cpp.obj: ../Aufgabe6/Friends.cpp
